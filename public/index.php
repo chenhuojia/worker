@@ -13,7 +13,7 @@
 
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
-define('VIEW_PATH', __DIR__ );
+define('VIEW_PATH', __DIR__);
 define('APP_HOOK',true);
 define('CONF_PATH', __DIR__.'/../application/');
 define('EXTEND_PATH', __DIR__ .'/../application/common/extend/');
