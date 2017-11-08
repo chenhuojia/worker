@@ -9,5 +9,8 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 use think\Route;
-Route::any('index','app/index/v1.Index/index');
+Route::any('index','index/v1.Index/index');
+Route::any('clientId/[:client_id]','index/v1.Index/getClientId');
+Route::any('createQrcode/[:client_id]','index/v1.Index/createQrcode');
 
+Route::any('send','index/v1.Index/send');

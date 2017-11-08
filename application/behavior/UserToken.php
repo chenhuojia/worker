@@ -1,5 +1,5 @@
 <?php
-namespace app\common\behavior;
+namespace app\behavior;
 use think\Config;
 class UserToken {
     
