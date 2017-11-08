@@ -1,0 +1,1 @@
+2017-08-22 11:38:18: imagepng(): Filename cannot be empty2017-08-22 11:38:20: imagepng(): Filename cannot be empty
